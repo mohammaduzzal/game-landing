@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav css starts here */
+.nav-container{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.274);
+}
+
+.nav-menu{
+  /* border: 1px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  width: 1000px;
+  margin: 0 auto;
+}
+.nav-left{
+  display: flex;
+ align-items: center;
+
+}
+.nav-right{
+  
+  align-items: center;
+}
+.nav-btn{
+  border: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(60, 53, 79, 1);
+  margin-right: 15px;
+
+}
+.Follow-btn{
+background-color: rgba(60, 53, 79, 0.288);
+border-radius: 5px;
+padding: 7px 15px;
+margin-right: 0;
+}
+.nav-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: rgba(11, 2, 35, 1);
+}
+/* nav css ends here */
+
+/* header css starts  */
+.header-container{
+  background-image: url(../images/Group\ 14.png);
+}
+/* .header-main{
+  border: 1px solid yellowgreen;
+ 
+} */
+.banner{
+  width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-left{
+  /* border: 1px solid green; */
+  width: 50%;
+
+}
+.banner-right{
+  /* border: 1px solid green; */
+  width: 50%;
+}
+.banner img{
+  width: 100%;
+}
+.title-one{
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(11, 2, 35, 1);
+}
+.title{
+  font-size: 3.93rem;
+  font-weight: 800;
+  background-clip: text;
+  background-image: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+  color: transparent;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.39);
+ 
+}
+.text{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(83, 76, 100, 1);
+  margin-top: 5px;
+}
+.banner-btn{
+  border: none;
+  border-radius: 48px;
+  padding: 21px 40px;
+  background-color: rgba(255, 66, 165, 1);
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+/* header css ends  */
+
+/* main starts here */
+/* gamer css starts */
+.gamer-container{
+  /* border: 1px solid tomato; */
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+.gamer-left{
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.gamer-left img{
+  width: 100%;
+}
+.gamer-right{
+  width: 50%;
+  /* border: 2px solid green; */
+  text-align: right;
+  
+}
+.gamer-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+}
+.gamer-text{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(83, 76, 100, 1);
+}
+.know-btn{
+  border: none;
+  background-color: rgba(255, 66, 165, 1);
+  border-radius: 48px;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.our-text{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(83, 76, 100, 1);
+}
+.unleash-text{
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(83, 76, 100, 1);
+}
+/* gamer css ends */
+/* main ends here */
