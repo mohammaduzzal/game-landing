@@ -175,7 +175,7 @@ margin-right: 0;
 
 /* funny-video starts */
 .funny-video{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   width: 1000px;
   margin: 0 auto;
   margin-top: 100px;
@@ -195,7 +195,7 @@ margin-right: 0;
   color: rgba(83, 76, 100, 1);
 }
 .funny-video-container{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: grid;
   grid-template-areas: 
  " a b c d";
@@ -204,7 +204,7 @@ margin-right: 0;
 }
 .funny-video-card{
   width: 100%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 
 }
 .funny-video-card img{
@@ -218,19 +218,112 @@ margin-right: 0;
 }
 .card-1{
   grid-area: a;
+  position: relative;
 
 }
 .card-2{
   grid-area: b;
+  position: relative;
 
 }
 .card-3{
   grid-area: c;
+  position: relative;
 
 }
 .card-4{
   grid-area: d;
+  position: relative;
 
 }
+.watch-now-text{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 66, 165, 1);
+}
+.watch-now{
+  /* border: 1px solid slateblue; */
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  text-align: center;
+  display: none;
+}
+.card-3 :hover+.watch-now{
+  display: block;
+ 
+}
+.card-1 :hover+.watch-now{
+  display: block;
+ 
+}
+.card-2 :hover+.watch-now{
+  display: block;
+ 
+}
+.card-4 :hover+.watch-now{
+  display: block;
+ 
+}
+.card-3 img:hover{
+  filter: brightness(50%);
+}
+.card-1 img:hover{
+  filter: brightness(50%);
+}
+.card-2 img:hover{
+  filter: brightness(50%);
+}
+.card-4 img:hover{
+  filter: brightness(50%);
+}
 /* funny-video ends */
+
+/* play instantly starts */
+.play-instantly{
+  width: 1000px;
+  /* border: 1px solid tomato; */
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-instantly-left{
+  /* border: 1px solid green; */
+  width: 40%;
+  margin: 0 auto;
+}
+.play-instantly-right{
+  /* border: 1px solid green; */
+  width: 40%;
+  position: relative;
+  
+}
+.play-instantly-right img{
+  width: 100%;
+}
+.play-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(11, 2, 35, 1);
+}
+.play-title span{
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+}
+.play-text{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(83, 76, 100, 1);
+}
+.play-instantly-right .cat{
+  position: absolute;
+  height: 120px;
+  width: 100px;
+  bottom: -5%;
+  left: -8%;
+}
+/* play instantly ends */
 /* main ends here */

@@ -70,4 +70,24 @@
     .funny-video-card img{
         height: 77%;
     }
+    .play-instantly{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .play-instantly-right{
+        width: 70%;
+    }
+    .play-instantly-left{
+        width: 70%;
+    }
+    .play-instantly-right .cat{
+        height: 100px;
+        width: 80px;
+    }
+    .play-online{
+       
+        flex-direction: column-reverse;
+    }
+
 }
