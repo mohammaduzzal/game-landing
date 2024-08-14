@@ -49,4 +49,25 @@
     .gamer-right{
         text-align: center;
     }
+    .banner-right, .banner-left{
+        width: 80%;
+    }
+    .funny-video{
+        width: 100%;
+    }
+    .funny-video-container{
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        ;
+        width: 70%;
+        margin: 0 auto;
+        gap: 20px;
+        
+    }
+    .funny-video-card img{
+        height: 77%;
+    }
 }
