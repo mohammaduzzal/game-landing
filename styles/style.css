@@ -326,4 +326,51 @@ margin-right: 0;
   left: -8%;
 }
 /* play instantly ends */
+
+/* careers css starts */
+.careers-container{
+  background-color: rgba(255, 66, 165, 1);
+}
+.careers{
+  width: 1000px;
+  /* border: 1px solid tomato; */
+  margin: 0 auto;
+  margin-top: 120px;
+
+}
+.careers-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.careers-text{
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.careers-left{
+  /* border: 1px solid green; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.careers-right{
+  /* border: 1px solid green; */
+  width: 50%;
+}
+.career-tara{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+
+}
+.parent{
+  display: flex;
+
+}
+.careers-right img{
+  width: 100%;
+}
+/* careers css ends */
 /* main ends here */
