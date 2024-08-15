@@ -35,6 +35,11 @@
     title{
        padding: 0 50px;
     }
+    .position{
+        /* right: 20%; */
+        display: none;
+       
+    }
     .banner-btn{
         padding: 15px 25px;
     }

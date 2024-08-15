@@ -378,7 +378,7 @@ margin-right: 0;
 .category-container{
   max-width: 1000px;
   margin: 0px auto; 
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
