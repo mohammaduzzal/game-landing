@@ -102,10 +102,34 @@
     }
     .careers-left{
         width: 100%;
+      
         
     }
     .careers-right{
         width: 100%;
+  
+    }
+    .footer-main{
+        width: 100%;
+    }
+    .pi-ku{
+        /* flex-direction: column; */
+        width: 80%;
+    }
+    .etc-big{
+        flex-direction: column;
+    }
+    .social{
+        font-size: .875rem;
+    }
+    .category-container{
+        width: 100%;
+    }
+    .category-card{
+        flex-basis: 150px;
+    }
+    .category-title{
+        font-size: .875rem;
     }
 
 }
